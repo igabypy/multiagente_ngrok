@@ -1,0 +1,37 @@
+# ---- Secretos / entorno ----
+.env
+**/.env
+*.env
+!*.env.example
+!**/.env.example
+
+# ---- Python ----
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- Logs / temporales ----
+*.log
+*.sqlite
+*.db
+.DS_Store
+
+# ---- Editores / IDE ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Docker ----
+*.pid
